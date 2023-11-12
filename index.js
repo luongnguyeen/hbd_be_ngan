@@ -49,7 +49,7 @@ document.querySelector("#mess").addEventListener("change", function () { //Hiệ
     }
 })
 
-document.querySelector(".recieve").addEventListener("click", () => {
+/* document.querySelector(".recieve").addEventListener("click", () => {
     document.querySelector(".startLetter").classList.add("close");
     setTimeout(() => {
         document.querySelector(".startForm").classList.add("close");
@@ -66,6 +66,7 @@ document.querySelector(".recieve").addEventListener("click", () => {
         }, 500)
     }, 500)
 })
+*/
 
 // Animation Drop light _ Tạo hiệu ứng kim tuyến rơi
 //Bạn có thể thiết kế lại để trông chân thật hơn nhé, thiết kế của mình hơi bị cứng và thiếu sự tự nhiên
