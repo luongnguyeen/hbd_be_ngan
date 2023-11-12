@@ -6,8 +6,8 @@ let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện tron
 imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
 
 // Gắn 1 link ảnh bất kì
-let imgLetter = document.querySelector(".img");
-imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
+/* let imgLetter = document.querySelector(".img");
+imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết */
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
@@ -28,7 +28,7 @@ document.querySelector(".sticker").addEventListener("click", function () { //Hi�
     }, 1000)
 })
 
-document.querySelector("#mess").addEventListener("change", function () { //Hiệu ứng gõ chữ cho phần nội dung của bức thư
+/* document.querySelector("#mess").addEventListener("change", function () { //Hiệu ứng gõ chữ cho phần nội dung của bức thư
     if (this.checked == true) {
         document.querySelector(".content").classList.add("actived")
         const splitMainContentLetter = mainContentLetter.split("");
@@ -47,7 +47,7 @@ document.querySelector("#mess").addEventListener("change", function () { //Hiệ
         document.querySelector(".img1").setAttribute("style", "opacity: 0; transition: .5s")
         document.querySelector(".mainContent").innerHTML = "";
     }
-})
+}) */
 
 /* document.querySelector(".recieve").addEventListener("click", () => {
     document.querySelector(".startLetter").classList.add("close");
@@ -70,7 +70,7 @@ document.querySelector("#mess").addEventListener("change", function () { //Hiệ
 
 // Animation Drop light _ Tạo hiệu ứng kim tuyến rơi
 //Bạn có thể thiết kế lại để trông chân thật hơn nhé, thiết kế của mình hơi bị cứng và thiếu sự tự nhiên
-const getBackground = document.querySelector(".backgroundParty");
+/*  const getBackground = document.querySelector(".backgroundParty");
 var width = getBackground.offsetWidth;
 var height = getBackground.offsetHeight;
 
@@ -109,3 +109,4 @@ function createLight(a) {
         container.appendChild(div);
     }
 }
+*/
